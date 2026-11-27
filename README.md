@@ -4,7 +4,7 @@
 
 
 
-Dashboard screenshot: docs/screenshots/executive-dashboard.png
+Dashboard screenshot: Docs/screenshots/executive-dashboard.png
 
 
 
@@ -50,7 +50,7 @@ JSON Files → Python ETL → MySQL (noodles\_dw) → Aggregation Tables and SQL
 
 Architecture diagram:
 
-docs/architecture-diagram.png
+Docs/architecture-diagram.png
 
 
 
@@ -98,7 +98,7 @@ noodles-analytics/
 
 │   └── NoodlesCrypto\_ExecutiveDashboard.pbix
 
-├── docs/
+├── Docs/
 
 │   ├── architecture-diagram.png
 
@@ -190,7 +190,7 @@ The fact table contains social engagement metrics, including likes, retweets, co
 
 Data dictionary:
 
-docs/data-dictionary.xlsx
+Docs/data-dictionary.xlsx
 
 
 
@@ -300,13 +300,13 @@ The pipeline currently runs through manual Jupyter notebook execution. Automated
 
 
 
-\- Technical Runbook: docs/technical-runbook.md
+\- Technical Runbook: Docs/technical-runbook.md
 
-\- User Guide: docs/user-guide.md
+\- User Guide: Docs/user-guide.md
 
-\- Architecture Diagram: docs/architecture-diagram.png
+\- Architecture Diagram: Docs/architecture-diagram.png
 
-\- Data Dictionary: docs/data-dictionary.xlsx
+\- Data Dictionary: Docs/data-dictionary.xlsx
 
 
 
@@ -320,7 +320,7 @@ Demo video URL: \[Add demo video link after recording]
 
 Presentation:
 
-docs/demo-presentation.pptx
+Docs/demo-presentation.pptx
 
 
 
