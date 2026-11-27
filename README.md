@@ -92,7 +92,7 @@ noodles-analytics/
 
 ├── 06\_powerbi\_prep.ipynb
 
-├── reports/
+├── Reports/
 
 │   ├── NoodlesCrypto\_TopPerformers.pbix
 
