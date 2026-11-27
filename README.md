@@ -1,6 +1,6 @@
 
 
-#Noodles Crypto Analytics Platform
+# Noodles Crypto Analytics Platform
 
 
 
@@ -8,7 +8,7 @@ Dashboard screenshot: Docs/screenshots/executive-dashboard.png
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -20,27 +20,27 @@ The platform processes 6,902 social engagement records to provide insights into 
 
 
 
-\### Key Features
+### Key Features
 
 
 
-\- Python-based ETL pipeline using Jupyter notebooks
+- Python-based ETL pipeline using Jupyter notebooks
 
-\- JSON data extraction, cleaning, and transformation
+- JSON data extraction, cleaning, and transformation
 
-\- Star schema data warehouse design
+- Star schema data warehouse design
 
-\- Pre-aggregated reporting tables and SQL views
+- Pre-aggregated reporting tables and SQL views
 
-\- Interactive Power BI reports
+- Interactive Power BI reports
 
-\- Data quality and referential integrity validation
+- Data quality and referential integrity validation
 
-\- Manual data refresh with future automation capability
+- Manual data refresh with future automation capability
 
 
 
-\## Architecture
+## Architecture
 
 
 
@@ -54,7 +54,7 @@ Docs/architecture-diagram.png
 
 
 
-\## Technology Stack
+## Technology Stack
 
 
 
@@ -80,7 +80,7 @@ Docs/architecture-diagram.png
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -120,7 +120,7 @@ noodles-analytics/
 
 
 
-\## Data Model
+## Data Model
 
 
 
@@ -128,7 +128,7 @@ The MySQL data warehouse uses a star schema to support analytical reporting.
 
 
 
-\### Dimension Tables
+### Dimension Tables
 
 
 
@@ -144,7 +144,7 @@ The MySQL data warehouse uses a star schema to support analytical reporting.
 
 
 
-\### Fact Table
+### Fact Table
 
 
 
@@ -160,31 +160,31 @@ The fact table contains social engagement metrics, including likes, retweets, co
 
 
 
-\### Aggregation Tables
+### Aggregation Tables
 
 
 
-\- CurrencySummary
+- CurrencySummary
 
-\- DailySocialSummary
+- DailySocialSummary
 
-\- SocialEngagementSummary
+- SocialEngagementSummary
 
-\- FactSocialEngagementEnriched
-
-
-
-\### SQL Reporting Views
+- FactSocialEngagementEnriched
 
 
 
-\- vw\_ExecutiveDashboard
+### SQL Reporting Views
 
-\- vw\_PlatformDaily
 
-\- vw\_SocialAnalytics
 
-\- vw\_TimeSeries
+- vw\_ExecutiveDashboard
+
+- vw\_PlatformDaily
+
+- vw\_SocialAnalytics
+
+- vw\_TimeSeries
 
 
 
@@ -194,47 +194,47 @@ Docs/data-dictionary.xlsx
 
 
 
-\## Power BI Reports
+## Power BI Reports
 
 
 
-\### Top Performers Report
+### Top Performers Report
 
 
 
-\- Cryptocurrency engagement rankings
+- Cryptocurrency engagement rankings
 
-\- Conditional formatting
+- Conditional formatting
 
-\- Social engagement trend analysis
+- Social engagement trend analysis
 
-\- Platform performance comparison
+- Platform performance comparison
 
-\- Currency-level analysis
-
-
-
-\### Executive Dashboard
+- Currency-level analysis
 
 
 
-\- Key performance indicators
-
-\- Interactive date filters
-
-\- Dynamic Top N analysis
-
-\- Platform comparison
-
-\- Rolling engagement averages
-
-\- Currency drill-through
-
-\- Executive storytelling using bookmarks
+### Executive Dashboard
 
 
 
-\## Key Insights
+- Key performance indicators
+
+- Interactive date filters
+
+- Dynamic Top N analysis
+
+- Platform comparison
+
+- Rolling engagement averages
+
+- Currency drill-through
+
+- Executive storytelling using bookmarks
+
+
+
+## Key Insights
 
 
 
@@ -242,13 +242,13 @@ Based on the displayed Power BI report:
 
 
 
-\- Social Engagement Activity: 6,902 social engagement records across 33 active cryptocurrencies.
+- Social Engagement Activity: 6,902 social engagement records across 33 active cryptocurrencies.
 
-\- Leading Token: Magic Internet Money (MIMUSD) recorded the highest total engagements, with 676.
+- Leading Token: Magic Internet Money (MIMUSD) recorded the highest total engagements, with 676.
 
-\- Engagement Concentration: The top three tokens account for approximately 28.9% of total engagements.
+- Engagement Concentration: The top three tokens account for approximately 28.9% of total engagements.
 
-\- Average Engagement Score: The overall displayed average engagement score was 26.03.
+- Average Engagement Score: The overall displayed average engagement score was 26.03.
 
 
 
@@ -256,31 +256,31 @@ These findings support social media engagement monitoring and cryptocurrency per
 
 
 
-\## Achievements
+## Achievements
 
 
 
-\- Developed an end-to-end Python ETL pipeline.
+- Developed an end-to-end Python ETL pipeline.
 
-\- Loaded 6,902 social engagement records into MySQL.
+- Loaded 6,902 social engagement records into MySQL.
 
-\- Designed a star schema with three dimension tables and one fact table.
+- Designed a star schema with three dimension tables and one fact table.
 
-\- Created four aggregation tables and four SQL reporting views.
+- Created four aggregation tables and four SQL reporting views.
 
-\- Developed two interactive Power BI reports.
+- Developed two interactive Power BI reports.
 
-\- Implemented DAX measures, filters, drill-through, and bookmarks.
+- Implemented DAX measures, filters, drill-through, and bookmarks.
 
-\- Confirmed zero orphaned currency records during foreign key validation.
+- Confirmed zero orphaned currency records during foreign key validation.
 
-\- Confirmed aggregation coverage for all 33 currencies with social engagement data.
+- Confirmed aggregation coverage for all 33 currencies with social engagement data.
 
-\- Prepared technical documentation and a project demonstration presentation.
+- Prepared technical documentation and a project demonstration presentation.
 
 
 
-\## Data Quality and Limitations
+## Data Quality and Limitations
 
 
 
@@ -296,21 +296,21 @@ The pipeline currently runs through manual Jupyter notebook execution. Automated
 
 
 
-\## Documentation
+## Documentation
 
 
 
-\- Technical Runbook: Docs/technical-runbook.md
+- Technical Runbook: Docs/technical-runbook.md
 
-\- User Guide: Docs/user-guide.md
+- User Guide: Docs/user-guide.md
 
-\- Architecture Diagram: Docs/architecture-diagram.png
+- Architecture Diagram: Docs/architecture-diagram.png
 
-\- Data Dictionary: Docs/data-dictionary.xlsx
+- Data Dictionary: Docs/data-dictionary.xlsx
 
 
 
-\## Demo
+## Demo
 
 
 
@@ -323,8 +323,7 @@ Presentation:
 Docs/demo-presentation.pptx
 
 
-
-\## Contact
+## Contact
 
 
 
